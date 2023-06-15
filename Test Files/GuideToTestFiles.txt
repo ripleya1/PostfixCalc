@@ -1,0 +1,11 @@
+They are as follows:
+Tests 1-3 are postfix expressions of what is found in Tests 7-9. Hence, they produce the same answers:
+
+Test 1/7 ==> 1
+Test 2/8 ==> 8
+Test 3/9 ==> 85
+
+Tests 4-6 are the same as Tests 7-9, only the parentheses have been removed, resulting in different values
+Test 4 ==> 25
+Test 5 ==> 4
+Test 6 ==> 57

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.19 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.19 FATAL_ERROR) # check cmake version
 project(postfixCalc
     LANGUAGES C # use C
 )
@@ -6,7 +6,7 @@ project(postfixCalc
 add_library(
     calcLib
     STATIC
-    postfixcalc.h
+    postfixCalc.h
     queue.c
     queue.h
     stack.c
@@ -14,5 +14,4 @@ add_library(
 )
 add_executable(calc postfixCalc.c)
 
-target_link_libraries(calc PUBLIC calcLib)
-
+target_link_libraries(calc PUBLIC calcLib m) # link internal files and external math library

@@ -1,2 +1,3 @@
 *.o
 myCalc
+/build

@@ -14,4 +14,4 @@ add_library(
 )
 add_executable(calc postfixCalc.c)
 
-target_link_libraries(calc PUBLIC calcLib m) # link internal files and external math library
+target_link_libraries(calc PUBLIC calcLib m) # link internal files and math.h library
